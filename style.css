@@ -1,0 +1,32 @@
+body {
+    font-family: "Times New Roman" serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: pink;
+}
+
+.description {
+    background-color: aqua;
+}
+
+.description.title {
+    color: blue;
+    text-align: center;
+}
+
+li {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.ingredients li {
+    color: black;
+    background-color: bisque;
+}
+
+a {
+    font-size: 28px;
+}
+
