@@ -1,3 +1,14 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: "Times New Roman" serif;
 }
@@ -5,10 +16,22 @@ body {
 h1 {
     text-align: center;
     background-color: pink;
+    padding: 15px;
 }
 
 .description {
     background-color: aqua;
+    padding: 3px 20px;
+}
+
+.description,
+li {
+    font-size: 20px;
+}
+
+.description.title,
+.small_title {
+    font-size: 24px;
 }
 
 .description.title {
@@ -16,17 +39,29 @@ h1 {
     text-align: center;
 }
 
-li {
-    font-size: 20px;
-    color: blueviolet;
-}
-
 .ingredients li {
     color: black;
     background-color: bisque;
+    padding-left: 20px;
 }
 
-a {
+.steps {
+    padding-left: 40px;
+    color: blueviolet;
+    margin-bottom: 30px;
+}
+
+.recipe_link {
     font-size: 28px;
+    margin: 15px 20px;
+    display: block;
 }
 
+.picture {
+    margin: 5px auto;
+    display: block;
+}
+
+.small_title {
+    margin: 20px;
+}
